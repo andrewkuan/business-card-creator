@@ -14,9 +14,13 @@
     <string>1</string>
     <key>LSMinimumSystemVersion</key>
     <string>13.0</string>
-    <key>CFBundleIconFile</key>
-    <string>AppIcon</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.business</string>
+    <key>CFBundleExecutable</key>
+    <string>Business Card Generator</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>LSUIElement</key>
+    <false/>
 </dict>
-</plist> 
+</plist>
