@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "BusinessCardGenerator",
+    defaultLocalization: "en",
     platforms: [
         .macOS(.v13)
     ],
@@ -12,6 +13,7 @@ let package = Package(
             targets: ["BusinessCardGenerator"]
         )
     ],
+    dependencies: [],
     targets: [
         .executableTarget(
             name: "BusinessCardGenerator",
