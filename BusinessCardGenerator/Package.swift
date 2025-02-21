@@ -15,7 +15,10 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "BusinessCardGenerator",
-            dependencies: []
+            dependencies: [],
+            resources: [
+                .process("Resources")
+            ]
         ),
         .testTarget(
             name: "BusinessCardGeneratorTests",

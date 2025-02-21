@@ -17,17 +17,33 @@ A macOS application for generating business cards from manual input or CSV files
 
 ## Installation
 
+### Option 1: Build from Source
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/andrewkuan/business-card-creator.git
    cd business-card-creator/BusinessCardGenerator
    ```
 
+2. Build the application:
+   ```bash
+   ./build_app.sh
+   ```
+
+3. The application will be created in `build/Business Card Generator.app`
+
+4. Move the application to your Applications folder:
+   ```bash
+   mv "build/Business Card Generator.app" /Applications/
+   ```
+
+### Option 2: Development in Xcode
+
+1. Clone the repository as shown above
 2. Open the project in Xcode:
    ```bash
    open Package.swift
    ```
-
 3. Build and run the project (⌘R)
 
 ## CSV Import Format
